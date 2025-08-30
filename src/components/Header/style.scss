@@ -1,5 +1,6 @@
 .header {
   padding: 24px 0;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .container {
@@ -15,13 +16,4 @@
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-}
-
-.header__logo {
-}
-
-.header__search {
-}
-
-.header__user {
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import Link from "../Link/Link";
 import globeIcon from "./globe.svg";
-import userAvatar from "./user-avatar.png";
+import Account from "../Account/Account";
 
 const UserMenu = () => {
   return (
@@ -14,14 +14,7 @@ const UserMenu = () => {
         <Link icon={globeIcon}></Link>
       </div>
       <div className="user-menu__user">
-        <button className="user-menu__burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <button className="user-menu__avatar">
-          <img src={userAvatar} alt="Avatar of user" />
-        </button>
+        <Account />
       </div>
     </div>
   );
