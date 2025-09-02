@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.scss";
 import FilterBtn from "../FilterBtn/FilterBtn";
-import CategoryList from "../CategoryList/CategoryList";
+import CategoryItem from "../CategoryItem/CategoryItem";
+import categoriesData from "./../../data/categories.json";
 
 const Categories = () => {
   return (
@@ -9,7 +10,9 @@ const Categories = () => {
       <div className="container">
         <div className="categories__row">
           <div className="categories__list">
-            <CategoryList />
+            {categoriesData.map((category) => {
+              return <CategoryItem category={category} />;
+            })}
           </div>
           <div className="categories__filter">
             <FilterBtn />

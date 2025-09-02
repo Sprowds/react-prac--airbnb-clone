@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Amazing views",
+    "iconURL": "img/icons/amazing-views.svg"
+  },
+  {
+    "name": "Lakefront",
+    "iconURL": "img/icons/lakefront.svg"
+  },
+  {
+    "name": "Caves",
+    "iconURL": "img/icons/caves.svg"
+  },
+  {
+    "name": "OMG!",
+    "iconURL": "img/icons/omg.svg"
+  },
+  {
+    "name": "Earth homes",
+    "iconURL": "img/icons/earth-homes.svg"
+  },
+  {
+    "name": "Treehouses",
+    "iconURL": "img/icons/treehouses.svg"
+  },
+  {
+    "name": "Mansions",
+    "iconURL": "img/icons/mansions.svg"
+  },
+  {
+    "name": "Cabins",
+    "iconURL": "img/icons/cabins.svg"
+  },
+  {
+    "name": "Amazing pools",
+    "iconURL": "img/icons/amazing-pools.svg"
+  },
+  {
+    "name": "Islands",
+    "iconURL": "img/icons/islands.svg"
+  },
+  {
+    "name": "Beachfront",
+    "iconURL": "img/icons/beachfront.svg"
+  },
+  {
+    "name": "Trending",
+    "iconURL": "img/icons/trending.svg"
+  }
+]
