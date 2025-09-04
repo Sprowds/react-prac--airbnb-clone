@@ -10,8 +10,8 @@ const Categories = () => {
       <div className="container">
         <div className="categories__row">
           <div className="categories__list">
-            {categoriesData.map((category) => {
-              return <CategoryItem category={category} />;
+            {categoriesData.map((category, index) => {
+              return <CategoryItem category={category} key={index} />;
             })}
           </div>
           <div className="categories__filter">
